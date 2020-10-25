@@ -23,7 +23,6 @@ fun Application.module(testing: Boolean = false) {
     routing{
         get("/ClaimService/getAll"){
             val claimlist = ClaimDB().getAll()
-            println("The number of students: ${claimlist}")
             //JSON Serialization/Deserialization
             val response = Gson().toJson(claimlist)
             //converts kotlin string into a JSON format
