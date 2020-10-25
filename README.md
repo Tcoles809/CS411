@@ -1,2 +1,2 @@
-# CS411 Assignment 1
+CS411 Assignment 1
 
